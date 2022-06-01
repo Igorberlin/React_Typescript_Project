@@ -19,7 +19,7 @@ const App:React.FC =()=>{
         <Routes>
           <Route element={<TodosPage/>} path="/todoList" />
           <Route element={<AboutPage/>} path="/about"/>
-          <Route element={<PeopleListPage/>} path="/"/>
+          <Route element={<PeopleListPage/>} path="/React_Typescript_Project"/>
         </Routes>
       </div>
       <Footer/>
