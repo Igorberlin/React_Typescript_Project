@@ -29,7 +29,7 @@ const Menu:React.FC= () => {
     return (
         <div ref={node}>
             <StyledMenu className="menu" open={open}>
-                <StyledLink onClick={()=>close()}><NavLink to="/">Home</NavLink></StyledLink>
+                <StyledLink onClick={()=>close()}><NavLink to="/React_Typescript_Project">Home</NavLink></StyledLink>
                 <StyledLink onClick={()=>close()}><NavLink to="/todoList">Todo List</NavLink></StyledLink>
                 <StyledLink onClick={()=>close()}><NavLink to="/about">Info</NavLink></StyledLink>
             </StyledMenu>
